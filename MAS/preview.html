@@ -1,0 +1,128 @@
+
+<!DOCTYPE HTML>
+    <head>
+    <meta charset="utf-8">
+
+    <title>MAS1 - Proto.io player</title>
+
+    
+				<link type="text/css" rel="stylesheet" href="./src/stylesheets/preview-export-min.css">
+				<script type="text/javascript" src="./src/scripts/preview-export-min.js"></script>
+			
+
+    <script type="text/javascript">
+        var prx = window.prx || {};
+        prx.orientation = 'landscape';
+        prx.orientations = {};
+        prx.orientations.portrait = 0;
+        prx.orientations.landscape = 1;
+        prx.project = {};
+        prx.project.id = '5808d050-272e-4845-8fc8-70a227a65ea3';
+        prx.project.title = 'MAS1';
+        prx.project.version = 0;
+        prx.project.livepreview = 0;
+        prx.project.account = "loboresfriado";
+        prx.activePage = {};
+        prx.usercountry = "us";
+        
+            prx.user = false;
+        
+        prx.skin = 'web';
+        prx.ver = '6.7.13.0';
+        //prx.flashactions = 1;
+		prx.flashactions = 1; //we are not using the DB value anymore
+
+        prx.nodejsassetsserver = {};
+        prx.nodejsassetsserver.host = ".proto.io";
+        prx.nodejsassetsserver.subdomainprefix = "https://a3";
+        prx.nodejsassetsserver.maxsubdomains = "20";
+        prx.account = "loboresfriado";
+        prx.browserShowScreenshots = 'true';
+        prx.url.crossmsg = 'https://loboresfriado.proto.io';
+        prx.playerUrl = 'https://loboresfriado.proto.io/player/';
+        prx.fullScreenUrl = 'https://loboresfriado.proto.io/player/fullscreen/index.cfm?id=5808d050-272e-4845-8fc8-70a227a65ea3';
+        prx.spaces = false;
+        prx.csrf_token = '2C24298EB907F8B9D0EB9A05116612AA2CEFC36068F3EAD635BD532F42DAC9FB';
+
+        prx.bShowPlayerBetaPrompt = false;
+
+        
+
+    </script>
+
+    
+
+</head>
+
+
+<body style="background-color:#FFFFFF">
+
+    
+
+    <div class="page-sidebar">
+        
+        <div class="sidebar-action-buttons">
+
+            
+                <span class="header-action-button player-icon-reload embed-icon-reload" id="refresh-preview">
+                    <span class="tooltip">Refresh preview</span>
+                </span>
+                
+
+            <div class="header-action-button player-icon-enter-fullscreen-mode-icon" id="go-fullscreen">
+                <span class="tooltip">Go full screen</span>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="maincontent" class="landscape">
+
+        <div id="shortcut-pressed-outer">
+            <div id="shortcut-pressed"></div>
+        </div>
+        
+
+			<div class="frame_generic">
+				
+				<div class="body_generic skin_web skin-wrapper skin-os-web skin-device-phone skin-model- skin-size-1 skin-color-white skin-orientation-landscape skin-dimensions-1920-1080">
+
+					<div class="buttons top"></div>
+					<div class="detail-top"></div>
+					<div class="web-search"></div>
+					<div class="buttons left"></div>
+
+					<div class="body_generic_inner">
+						
+						<iframe id="pio-playerframe" src="./src/index.html" scrolling="NO" style="width: 1920px; height: 1080px;" webkitAllowFullScreen mozallowfullscreen allowFullScreen allowvr allow="autoplay"></iframe>
+						
+                                <script type="text/javascript">
+                                    // remove parameter from address bar immediately if no changes
+                                    let url = new URL(window.location.href);
+                                    url.searchParams.delete('hc');
+									url.searchParams.delete('ap');
+                                    window.history.replaceState({}, document.title, url.toString());
+                                </script>
+                            
+					</div>
+
+					<div class="buttons right"></div>
+					<div class="detail-bottom"></div>
+				</div>
+				
+			</div>
+		
+    </div>
+
+    
+
+    
+            <div id="branding"></div>
+        
+</body>
+
+
+<script type="text/javascript">
+    
+</script>
+</html>

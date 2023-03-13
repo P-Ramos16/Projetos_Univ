@@ -1,7 +1,7 @@
 
 # Projetos Univ - LEI
 
-Boas cara pessoa que deseja ser "inpirada" (ctrl+c, ctrl+v) nos projetos de anos anteriores.
+Boas cara pessoa que deseja ser "inspirada" (ctrl+c, ctrl+v) nos projetos de anos anteriores.
 
 Neste repositório estão guardados, por enquanto, os projetos de MAS e ITW de 2021-2022 e de MPEI, SO e AED de 2022-2023.
 
